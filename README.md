@@ -39,7 +39,7 @@ import PackageDescription
 
 ## Usage
 
-To use the algorithm, first specify a cost matrix.
+To use the algorithm, first specify a cost matrix. The `[i, j]` entry of this matrix defines the cost of assigning worker `i` to job `j`.
 
 ```swift
 let costMatrix = Matrix([
@@ -68,4 +68,4 @@ Spencer Young, spencermyoung513@gmail.com
 
 ## License
 
-This package is available for any and all use under the MIT license. See `LICENSE.md` for more information.
+This package is available for unconditional usage under the MIT license. See `LICENSE.md` for more information.
