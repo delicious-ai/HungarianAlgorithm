@@ -66,7 +66,7 @@ For alternative examples, refer to the unit tests found in `Tests/HungarianAlgor
 
 ## Future Contributions
 
-To add to this repository, create a branch, push your changes, and submit a Merge Request. I will review it before merging.
+To add to this repository, create a branch, push your changes, and submit a Merge Request. We will review it before merging.
 
 ## Author
 
