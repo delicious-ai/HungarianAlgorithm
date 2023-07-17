@@ -17,7 +17,7 @@ in Swift, despite the growing use of machine learning in IOS mobile applications
 
 ### Swift Package Manager
 
-You can install `HungarianAlgorithm` into your local Swift package by modifying your `Package.swift` file:
+You can install `HungarianAlgorithm` into a local Swift environment by modifying your `Package.swift` file:
 
 ```swift
 import PackageDescription
