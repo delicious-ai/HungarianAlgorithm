@@ -40,6 +40,8 @@ import PackageDescription
 ## Usage
 
 To use the algorithm, first specify a cost matrix. The `[i, j]` entry of this matrix defines the cost of assigning worker `i` to job `j`.
+Matrices must be created using the convention defined in the highly optimized [LASwift package](https://github.com/AlexanderTar/LASwift),
+as shown below:
 
 ```swift
 let costMatrix = Matrix([
