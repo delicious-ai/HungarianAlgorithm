@@ -1,5 +1,7 @@
 # HungarianAlgorithm
 
+[![Build](https://github.com/spencermyoung513/HungarianAlgorithm/actions/workflows/swift.yml/badge.svg?branch=main)](https://github.com/spencermyoung513/HungarianAlgorithm/actions/workflows/swift.yml)
+
 This package contains an efficient implementation of the Hungarian Algorithm (otherwise known as the Munkres Assignment Algorithm), which is the optimal 
 method to compute the solution to the two-dimensional rectangular assignment problem. The algorithm runs in O(n^3) time. It has been generalized to work
 for cost matrices of arbitrary size (not necessarily square) and with both positive and negative costs.
