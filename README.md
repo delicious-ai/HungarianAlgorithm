@@ -1,6 +1,8 @@
 # HungarianAlgorithm
 
 [![Build](https://github.com/spencermyoung513/HungarianAlgorithm/actions/workflows/swift.yml/badge.svg?branch=main)](https://github.com/spencermyoung513/HungarianAlgorithm/actions/workflows/swift.yml)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fspencermyoung513%2FHungarianAlgorithm%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/spencermyoung513/HungarianAlgorithm)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fspencermyoung513%2FHungarianAlgorithm%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/spencermyoung513/HungarianAlgorithm)
 
 This package contains an efficient implementation of the Hungarian Algorithm (otherwise known as the Munkres Assignment Algorithm), which is the optimal 
 method to compute the solution to the two-dimensional rectangular assignment problem. The algorithm runs in O(n^3) time. It has been generalized to work
@@ -64,11 +66,11 @@ For alternative examples, refer to the unit tests found in `Tests/HungarianAlgor
 
 ## Future Contributions
 
-To add to this repository, create a branch, push your changes, and submit a Merge Request. I will review it before merging.
+To add to this repository, create a branch, push your changes, and submit a Merge Request. We will review it before merging.
 
 ## Author
 
-Spencer Young, spencermyoung513@gmail.com
+Spencer Young (ML Engineer, Delicious AI), spencermyoung513@gmail.com
 
 ## License
 
