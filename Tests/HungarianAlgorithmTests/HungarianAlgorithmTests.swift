@@ -1,5 +1,5 @@
 //
-//  HungarianAlgorithmSolverTests.swift
+//  HungarianAlgorithmTests.swift
 //
 //
 //  Created by Spencer Young on 7/17/23.
@@ -9,7 +9,7 @@
 import LASwift
 import XCTest
 
-final class HungarianAlgorithmSolverTests: XCTestCase {
+final class HungarianAlgorithmTests: XCTestCase {
     func testHungarianAlgorithmIsCorrectWithSquareCostMatrix() throws {
         let costMatrix = Matrix([
             Vector([1.0, 2.0, 3.0]),
@@ -18,7 +18,7 @@ final class HungarianAlgorithmSolverTests: XCTestCase {
         ])
         let expectedRowIndices: [Int] = [0, 1, 2]
         let expectedColumnIndices: [Int] = [2, 1, 0]
-        let solution = try HungarianAlgorithmSolver.findOptimalAssignment(costMatrix)
+        let solution = try HungarianAlgorithm.findOptimalAssignment(costMatrix)
         XCTAssertEqual(solution.rowIndices, expectedRowIndices)
         XCTAssertEqual(solution.columnIndices, expectedColumnIndices)
     }
@@ -31,7 +31,7 @@ final class HungarianAlgorithmSolverTests: XCTestCase {
         ])
         let expectedRowIndices: [Int] = [0, 1, 2]
         let expectedColumnIndices: [Int] = [5, 0, 1]
-        let solution = try HungarianAlgorithmSolver.findOptimalAssignment(costMatrix)
+        let solution = try HungarianAlgorithm.findOptimalAssignment(costMatrix)
         XCTAssertEqual(expectedRowIndices, solution.rowIndices)
         XCTAssertEqual(expectedColumnIndices, solution.columnIndices)
     }
@@ -47,7 +47,7 @@ final class HungarianAlgorithmSolverTests: XCTestCase {
         ])
         let expectedRowIndices: [Int] = [0, 1, 2]
         let expectedColumnIndices: [Int] = [0, 2, 1]
-        let solution = try HungarianAlgorithmSolver.findOptimalAssignment(costMatrix)
+        let solution = try HungarianAlgorithm.findOptimalAssignment(costMatrix)
 
         XCTAssertEqual(solution.rowIndices, expectedRowIndices)
         XCTAssertEqual(solution.columnIndices, expectedColumnIndices)
@@ -60,7 +60,7 @@ final class HungarianAlgorithmSolverTests: XCTestCase {
         ])
         let expectedRowIndices: [Int] = [0, 1]
         let expectedColumnIndices: [Int] = [1, 0]
-        let solution = try HungarianAlgorithmSolver.findOptimalAssignment(costMatrix)
+        let solution = try HungarianAlgorithm.findOptimalAssignment(costMatrix)
 
         XCTAssertEqual(solution.rowIndices, expectedRowIndices)
         XCTAssertEqual(solution.columnIndices, expectedColumnIndices)
@@ -71,6 +71,6 @@ final class HungarianAlgorithmSolverTests: XCTestCase {
             Vector([Double.infinity, Double.infinity]),
             Vector([Double.infinity, Double.infinity]),
         ])
-        XCTAssertThrowsError(try HungarianAlgorithmSolver.findOptimalAssignment(costMatrix))
+        XCTAssertThrowsError(try HungarianAlgorithm.findOptimalAssignment(costMatrix))
     }
 }

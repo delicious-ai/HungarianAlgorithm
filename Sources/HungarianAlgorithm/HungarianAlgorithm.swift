@@ -1,5 +1,5 @@
 //
-//  HungarianAlgorithmSolver.swift
+//  HungarianAlgorithm.swift
 //
 //
 //  Created by Spencer Young on 7/13/23.
@@ -11,7 +11,7 @@ enum AssignmentError: Error {
     case infeasibleCostMatrix
 }
 
-class HungarianAlgorithmSolver {
+enum HungarianAlgorithm {
     /**
      Use the Hungarian Algorithm to solve the two-dimensional rectangular assignment problem (given an appropriate cost matrix).
 
