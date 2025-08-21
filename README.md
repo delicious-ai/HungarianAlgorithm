@@ -28,7 +28,7 @@ import PackageDescription
     name: "YOUR_PROJECT_NAME",
     dependencies: [
         .package(
-            url: "https://github.com/spencermyoung513/HungarianAlgorithm",
+            url: "https://github.com/delicious-ai/HungarianAlgorithm",
         )
     ],
     targets: [
